@@ -245,7 +245,7 @@ function create_config( )
     "download",
     "vc",
     },
-    sudo_users = {112840592,163320706},--Sudo users
+    sudo_users = {1052659223},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 ]],

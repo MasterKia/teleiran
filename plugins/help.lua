@@ -6,12 +6,12 @@ return {
   description = " TeleIran ", 
   usage = " TeleIran ",
   patterns = {
-    "^[!#/][Hh][Ee][Ll][Pp]$",
-    "^[#/!][Hh][Ee][Ll][Pp][Mm][Ee]$",
-    "^[#/!][Hh][Ee][Ll][Pp] [Mm][Ee]$",
-    "^[#/!][Hh][Ee][Ll][Pp][Aa][Ll][Ll]$",
-    "^[#/!][Hh][Ee][Ll][Pp] [Aa][Ll][Ll]$",
-    "^[#/!][Ss][Hh][Ee][Ll][Pp]$",
+    --"^[!#/][Hh][Ee][Ll][Pp]$",
+    --"^[#/!][Hh][Ee][Ll][Pp][Mm][Ee]$",
+    --"^[#/!][Hh][Ee][Ll][Pp] [Mm][Ee]$",
+    --"^[#/!][Hh][Ee][Ll][Pp][Aa][Ll][Ll]$",
+    --"^[#/!][Hh][Ee][Ll][Pp] [Aa][Ll][Ll]$",
+    --"^[#/!][Ss][Hh][Ee][Ll][Pp]$",
   },
   run = run
 }

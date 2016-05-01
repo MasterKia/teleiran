@@ -333,7 +333,95 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
+*SuperGroup Commands*
+〰〰〰〰〰〰〰〰〰〰〰〰
 
+🔘Lock|Unlock Group Settings
+!lock|unlock member
+!lock|unlock links
+!lock|unlock sticker
+!lock|unlock flood
+!lock|unlock spam
+!lock|unlock arabic
+!lock|unlock rtl
+!lock|unlock contacts
+!lock|unlock strict
+
+!settings
+
+🔘Set Flood Sensitivity
+!setflood [value]
+
+🔘Mute|Unmute SuperGroup
+!mute|unmute all
+!mute|unmute text
+!mute|unmute photo
+!mute|unmute video
+!mute|unmute gifs
+!mute|unmute audio
+!muteuser (On Reply)
+!mutelist
+
+🔘Member Control
+!ban [id-username-reply]
+!unban [id-username-reply]
+!banlist
+
+!kick [id-username-reply]
+!kickme
+
+🔘Clean SuperGroup Info
+!clean [rules-about-modlist-mutelist-bots]
+
+🔘Block|UnBlock Word
+!block [Word]
+!unblock [Word]
+!blocklist
+!unblockall
+
+🔘Anti Tag Settings
+!block @
+!block !
+
+🔘 Promoting & Demoting Settings
+!setowner [id-username-reply]
+
+!promote [id-username-reply]
+!demote [id-username-reply]
+
+!owner
+!modlist
+
+🔘Set Commands
+!setname [name]
+!setphoto
+
+!setrules [text]
+!setabout [text]
+
+!rules
+!about
+
+🔘Displays General Info 
+!info
+
+🔘Returns SuperGroup Admins List
+!admins
+
+🔘List Bots In SuperGroup
+!bots
+
+🔘 User Information
+!id
+!res @username
+
+🔘Link Commands
+!link
+!newlink
+
+🔘Delete Message 
+!del
+〰〰〰〰〰〰〰〰〰〰〰〰
 ]],
   }
   serialize_to_file(config, './data/config.lua')
